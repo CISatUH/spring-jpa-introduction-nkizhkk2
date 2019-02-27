@@ -24,5 +24,7 @@ public class FirstApplication implements CommandLineRunner {
 
         Person personFromDb = personRepository.findFirstByName("John");
         System.out.println(personFromDb);
+
+
     }
 }
